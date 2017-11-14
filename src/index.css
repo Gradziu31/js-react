@@ -1,0 +1,172 @@
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.box {
+    border: 1px solid red;
+    min-height: 700px;
+}
+
+.box div {
+    display: inline-block;
+}
+
+.box i {
+    font-size: 4em;
+    margin: 0px 20px;
+}
+
+.blue p {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+h2 {
+    display: inline-block;
+}
+
+h2:hover {
+    color: red;
+}
+
+#plus {
+    transition: 350ms;
+}
+
+#plus:hover {
+    color: rgb(0, 255, 41);
+}
+
+#minus {
+    transition: 350ms;
+}
+
+#minus:hover {
+    color: rgb(255, 0, 0);
+}
+
+.blue {
+    background-color: rgb(49, 100, 213);
+    border: 1px solid rgb(49, 100, 213);
+    color: #ffffff;
+}
+.blue img{
+        min-height: 200px;
+    max-height: 200px;
+    min-width: 100%;
+}
+
+.green {
+    background-color: rgb(25, 209, 121);
+    border: 1px solid rgb(25, 209, 121);
+    color: #ffffff;
+}
+.green img{
+        min-height: 200px;
+    max-height: 200px;
+    min-width: 100%;
+}
+
+.yellow {
+    background-color: #66FF33;
+    border: 1px solid rgb(146, 249, 65);
+    color: #ffffff;
+}
+
+.box-nr1 {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px 0px 20px 0px;
+}
+
+.green p:first-of-type {
+    font-size: 1em;
+}
+.fast-padding{
+    padding: 10px 0px;
+}
+
+.style_input {
+    display: inline-block;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column; 
+}
+
+#lista label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    background-color: #222222!important;
+}
+
+h1 {
+    color: #ffffff!important;
+    text-shadow: 1px 1px 2px black; 
+}
+
+input[type=checkbox] {
+    margin-right: 3px!important;
+}
+
+.container{
+    margin-top: 20px!important;
+}
+.one-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    text-align: center
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    text-align: left;
+}
